@@ -1,7 +1,6 @@
 <script>
 	import Container from '$lib/components/Container.svelte';
 	import CtaButton from '$lib/components/CtaButton.svelte';
-	import DottedGradient from '$lib/components/DottedGradient.svelte';
 	import Explore from '$lib/components/icons/Explore.svelte';
 	import Home from '$lib/components/icons/Home.svelte';
 	import Plus from '$lib/components/icons/Plus.svelte';
