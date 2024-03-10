@@ -3,9 +3,8 @@
 	import CtaButton from '$lib/components/CtaButton.svelte';
 	import Explore from '$lib/components/icons/Explore.svelte';
 	import Home from '$lib/components/icons/Home.svelte';
-	import Plus from '$lib/components/icons/Plus.svelte';
 	import * as Avatar from '$lib/components/ui/avatar/index';
-	import { ChevronDown, BookOpen } from 'lucide-svelte';
+	import { ChevronDown, BookOpen, SquarePlus } from 'lucide-svelte';
 </script>
 
 <header class="sticky top-0 z-10">
@@ -26,7 +25,7 @@
 					<BookOpen size="16" class="mt-1" />
 					<span class="text-sm">Learn</span>
 				</a>
-				<CtaButton><Plus /> Post</CtaButton>
+				<CtaButton><SquarePlus class="mr-2 h-4 w-4" /> Post</CtaButton>
 
 				<div class="flex items-center gap-3 px-4">
 					<Avatar.Root class="h-12 w-12">
