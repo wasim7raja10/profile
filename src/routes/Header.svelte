@@ -26,10 +26,7 @@
 					<BookOpen size="16" class="mt-1" />
 					<span class="text-sm">Learn</span>
 				</a>
-				<CtaButton>
-					<Plus />
-					Post
-				</CtaButton>
+				<CtaButton><Plus /> Post</CtaButton>
 
 				<div class="flex items-center gap-3 px-4">
 					<Avatar.Root class="h-12 w-12">
