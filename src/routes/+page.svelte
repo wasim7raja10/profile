@@ -7,6 +7,6 @@
 	<meta name="description" content="This is a profile page of a techie." />
 </svelte:head>
 
-<section>
+<section class="h-screen">
 
 </section>
