@@ -14,10 +14,16 @@ const config = {
 			}
 		},
 		extend: {
+			dropShadow: {
+				DEFAULT: '0 4px hsl(var(--foreground-secondary))',
+				hover: '0 2px hsl(216 100% 28%)',
+				active: '0 2px hsl(var(--foreground-secondary))'
+			},
 			colors: {
 				border: 'hsl(var(--border) / <alpha-value>)',
 				input: 'hsl(var(--input) / <alpha-value>)',
 				ring: 'hsl(var(--ring) / <alpha-value>)',
+				hover: 'hsl(var(--hover) / <alpha-value>)',
 				background: 'hsl(var(--background) / <alpha-value>)',
 				foreground: {
 					DEFAULT: 'hsl(var(--foreground) / <alpha-value>)',
