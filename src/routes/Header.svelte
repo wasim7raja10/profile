@@ -7,7 +7,7 @@
 	import { ChevronDown, BookOpen, SquarePlus } from 'lucide-svelte';
 </script>
 
-<header class="sticky top-0 z-10">
+<header class="sticky top-0 z-10 bg-white">
 	<Container classes="py-4 border-b border-dotted border-[#525C69]">
 		<div class="flex items-center justify-between">
 			<img height="27" width="108" src="src/lib/images/brand.svg" alt="Logo Brand" />

@@ -1,5 +1,6 @@
 <script>
-
+	import Container from '$lib/components/Container.svelte';
+	import ProfileSection from './ProfileSection.svelte';
 </script>
 
 <svelte:head>
@@ -8,5 +9,5 @@
 </svelte:head>
 
 <section class="h-screen">
-
+	<Container classes="max-w-[1000px]"><ProfileSection /></Container>
 </section>
