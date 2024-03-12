@@ -1,10 +1,8 @@
+import type { Company } from './company.type';
+
 export type CareerUpdate = {
 	type: 'career';
-	designation: string;
-	designationMoreInfo: string[];
-	companyImgUrl: string;
-	companyName: string;
-	location: string;
+	company: Company;
 	date: string;
 	action: 'joined' | 'resigned';
 };

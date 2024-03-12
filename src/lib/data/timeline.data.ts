@@ -27,11 +27,13 @@ export const timelineData: TimelineData[] = [
 		type: 'career',
 		action: 'joined',
 		date: 'Nov 2023',
-		companyImgUrl: 'src/lib/images/brand-small.svg',
-		companyName: 'Duggup',
-		designation: 'Co-Founder and CEO',
-		designationMoreInfo: ['Full-time', 'Remote'],
-		location: 'San Francisco Bay Area'
+		company: {
+			name: 'Duggup',
+			designation: 'Co-Founder and CEO',
+			imageUrl: 'src/lib/images/brand-small.svg',
+			designationMoreInfo: ['Full-time', 'Remote'],
+			location: 'San Francisco Bay Area'
+		}
 	},
 	{
 		type: 'articles',
@@ -54,11 +56,13 @@ export const timelineData: TimelineData[] = [
 		type: 'career',
 		action: 'joined',
 		date: 'Sep 2022',
-		companyImgUrl:
-			'https://s3-alpha-sig.figma.com/img/1b23/f02f/60bc556cd22a575549ce43ad307ec0ee?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OS-m9FouegWKOM0bIXP3XHmNqAB0ujry7al3wNrJ7uDCQM1IpwT5bfZIeFLavdbEq10jvOKSCszEaAUdkObTfroVRK5bAhjiLykRRrmGpRJtDYUxb4L7E2FdeXGcD9LMeBlA6d-oOIhvj7z9ERRNnmA6R4GmsTRe~KoVSP23zk0O~73I~pmAeJHJu4kCyncpqHl5RRssd3XrUZyYELuGj01U5Z0zoinaRwa14DHoLFIIIwKUluIkKQhLUuLhay3kZ9wx5ymanxzFMC6A766bZavoSVvOnNDkADuQ9Whozaqi5pZ9nAgxjy19kw2vckjhOGw0CvZ0BUA0lrroIGGQjw__',
-		companyName: 'BetterUp',
-		designation: 'VP Engineering',
-		designationMoreInfo: ['Full-time'],
-		location: 'San Francisco Bay Area'
+		company: {
+			name: 'BetterUp',
+			designation: 'VP Engineering',
+			imageUrl:
+				'https://s3-alpha-sig.figma.com/img/1b23/f02f/60bc556cd22a575549ce43ad307ec0ee?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OS-m9FouegWKOM0bIXP3XHmNqAB0ujry7al3wNrJ7uDCQM1IpwT5bfZIeFLavdbEq10jvOKSCszEaAUdkObTfroVRK5bAhjiLykRRrmGpRJtDYUxb4L7E2FdeXGcD9LMeBlA6d-oOIhvj7z9ERRNnmA6R4GmsTRe~KoVSP23zk0O~73I~pmAeJHJu4kCyncpqHl5RRssd3XrUZyYELuGj01U5Z0zoinaRwa14DHoLFIIIwKUluIkKQhLUuLhay3kZ9wx5ymanxzFMC6A766bZavoSVvOnNDkADuQ9Whozaqi5pZ9nAgxjy19kw2vckjhOGw0CvZ0BUA0lrroIGGQjw__',
+			designationMoreInfo: ['Full-time'],
+			location: 'San Francisco Bay Area'
+		}
 	}
 ];
