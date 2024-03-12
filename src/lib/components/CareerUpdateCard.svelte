@@ -22,7 +22,7 @@
 		</div>
 	</div>
 
-	<div class="absolute left-[61px] top-0 z-10 -translate-x-1/2">
+	<div class="absolute left-[61px] top-0 z-10 -translate-x-1/2 text-[#778FB1]">
 		<ChevronUp size="18" />
 	</div>
 
