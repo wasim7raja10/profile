@@ -26,13 +26,14 @@ export const timelineData: TimelineData[] = [
 	{
 		type: 'career',
 		action: 'joined',
-		date: 'Nov 2023',
+		date: 'March 2024',
 		company: {
-			name: 'Duggup',
-			designation: 'Co-Founder and CEO',
-			imageUrl: 'src/lib/images/brand-small.svg',
+			name: 'ZappoTech',
+			designation: 'Co-Founder and CTO',
+			imageUrl:
+				'https://media.licdn.com/dms/image/D560BAQGZtR1_LEObUQ/company-logo_100_100/0/1709797235070?e=1718236800&v=beta&t=T8FtBW8hIxZv_LiGqkoYxQZEOlw1kJMKxDacrPo-c5U',
 			designationMoreInfo: ['Full-time', 'Remote'],
-			location: 'San Francisco Bay Area'
+			location: 'Kolkata'
 		}
 	},
 	{

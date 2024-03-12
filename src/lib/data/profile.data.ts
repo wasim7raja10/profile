@@ -3,9 +3,12 @@ import type { Profile } from '$lib/types/profile.type';
 export const profileData: Profile = {
 	bio: 'Part-Time Consultancy at Clearcals - a digital health and nutrition startup. Ex-Clearcals Software Engineer. I write hot-takes on web development, shipping delightful products and accelerating product and career growth.',
 	company: {
-		designation: 'Part-Time Consultancy',
-		imageUrl: 'https://img.clearcals.com/site/images/hint/logo_round.svg',
-		name: 'Clearcals'
+		name: 'ZappoTech',
+		designation: 'Co-Founder and CTO',
+		imageUrl:
+			'https://media.licdn.com/dms/image/D560BAQGZtR1_LEObUQ/company-logo_100_100/0/1709797235070?e=1718236800&v=beta&t=T8FtBW8hIxZv_LiGqkoYxQZEOlw1kJMKxDacrPo-c5U',
+		designationMoreInfo: ['Full-time', 'Remote'],
+		location: 'Kolkata'
 	},
 	isFollowed: true,
 	name: 'Wasim Raja',
