@@ -13,7 +13,7 @@
 	<!-- id 1 -->
 	<div class="relative flex h-[288px] items-center">
 		<!-- date -->
-		<div class="absolute -left-8 text-xs text-foreground-accent">
+		<div class="absolute left-5 -translate-x-[100%] text-xs text-foreground-accent">
 			<div>Dec 2023</div>
 		</div>
 
@@ -77,7 +77,7 @@
 	<!-- id 2 -->
 	<div class="relative flex h-[157px] items-center">
 		<!-- date -->
-		<div class="-translate-x-24 text-xs text-foreground-accent">
+		<div class="absolute left-5 -translate-x-[100%] text-xs text-foreground-accent">
 			<div class="flex flex-col items-end">
 				<Avatar.Root class="h-12 w-12">
 					<Avatar.Image src="src/lib/images/brand-small.svg" alt="@shadcn" />
