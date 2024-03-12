@@ -4,7 +4,7 @@
 	import { Ellipsis, SquareArrowOutUpRight } from 'lucide-svelte';
 </script>
 
-<div class="flex items-center gap-16 pt-10">
+<div class="flex items-center gap-16">
 	<div class="flex flex-col items-center gap-2">
 		<Avatar.Root class="h-[120px] w-[120px] border-[5px] border-[#EAEFF5]">
 			<Avatar.Image src="https://github.com/shadcn.png" alt="@shadcn" />

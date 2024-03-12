@@ -3,7 +3,6 @@
 	import ScrollArea from '$lib/components/ui/scroll-area/scroll-area.svelte';
 	import * as Avatar from '$lib/components/ui/avatar';
 	import { ChevronUp } from 'lucide-svelte';
-	import { Size } from 'svelte-radix';
 </script>
 
 <Container classes="relative mx-auto my-10 max-w-[1000px]">

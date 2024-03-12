@@ -9,7 +9,7 @@
 	<meta name="description" content="This is a profile page of a techie." />
 </svelte:head>
 
-<section class="h-screen">
+<section class="my-8">
 	<Container classes="max-w-[1000px]"><ProfileSection /></Container>
 	<Container><Timeline /></Container>
 </section>
