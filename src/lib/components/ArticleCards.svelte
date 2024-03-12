@@ -24,7 +24,9 @@
 					<div class="h-[136px] w-full">
 						<img src={article.imgUrl} alt={article.title} class="h-full w-full object-cover" />
 					</div>
-					<p class="line-clamp-2 p-6">{article.title}</p>
+					<div class="p-6">
+						<p class="line-clamp-2">{article.title}</p>
+					</div>
 				</div>
 			{/each}
 		</div>
