@@ -34,10 +34,9 @@
 		</div>
 
 		<div class="flex items-center justify-between">
-			<CtaButton
-				classes={profileData.isFollowed ? 'drop-shadow-active' : ''}
-				>{profileData.isFollowed ? 'Followed' : 'Follow'}</CtaButton
-			>
+			<CtaButton classes={profileData.isFollowed ? 'drop-shadow-active' : ''}>
+				{profileData.isFollowed ? 'Followed' : 'Follow'}
+			</CtaButton>
 
 			<div class="flex items-center gap-4">
 				<a
