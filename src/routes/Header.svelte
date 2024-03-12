@@ -7,12 +7,13 @@
 	import { profileData } from '$lib/data/profile.data';
 	import { getInitials } from '$lib/utils.js';
 	import { ChevronDown, BookOpen, SquarePlus } from 'lucide-svelte';
+	import brand from "$lib/images/brand.svg"
 </script>
 
 <header class="sticky top-0 z-50 bg-white">
 	<Container classes="py-4 border-b border-dotted border-[#525C69]">
 		<div class="flex items-center justify-between">
-			<img height="27" width="108" src="src/lib/images/brand.svg" alt="Logo Brand" />
+			<img height="27" width="108" src={brand} alt="Logo Brand" />
 
 			<div class="flex items-center gap-10 text-foreground-secondary">
 				<a href="/" class="group flex items-center gap-2">
