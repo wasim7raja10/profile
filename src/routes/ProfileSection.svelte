@@ -38,6 +38,7 @@
 			<div class="flex items-center gap-4">
 				<a
 					href={profileData.websiteUrl}
+					target="_blank"
 					class="flex items-center gap-1 text-sm text-foreground-secondary"
 				>
 					My website <SquareArrowOutUpRight size="16" />
