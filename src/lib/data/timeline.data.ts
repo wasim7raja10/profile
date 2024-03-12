@@ -21,12 +21,12 @@ export const timelineData: TimelineData[] = [
 				title: 'Startup Lesson I am reflecting. Don\'t build for the "average person".'
 			}
 		],
-		date: 'Dec 2023'
+		date: 'March 2024'
 	},
 	{
 		type: 'career',
 		action: 'joined',
-		date: 'March 2024',
+		date: 'Jan 2024',
 		company: {
 			name: 'ZappoTech',
 			designation: 'Co-Founder and CTO',

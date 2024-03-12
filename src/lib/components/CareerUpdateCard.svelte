@@ -11,7 +11,7 @@
 	<!-- date -->
 	<div class="absolute left-5 -translate-x-[100%] text-xs text-foreground-accent">
 		<div class="flex flex-col items-end">
-			<Avatar.Root class="h-12 w-12">
+			<Avatar.Root class="h-12 w-12 border">
 				<Avatar.Image src={careerUpdateData.company.imageUrl} alt={careerUpdateData.company.name} />
 				<Avatar.Fallback>{getInitials(careerUpdateData.company.name)}</Avatar.Fallback>
 			</Avatar.Root>

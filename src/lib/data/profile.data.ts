@@ -1,7 +1,7 @@
 import type { Profile } from '$lib/types/profile.type';
 
 export const profileData: Profile = {
-	bio: 'Part-Time Consultancy at Clearcals - a digital health and nutrition startup. Ex-Clearcals Software Engineer. I write hot-takes on web development, shipping delightful products and accelerating product and career growth.',
+	bio: 'Co-Founder and CTO at ZappoTech - a news/blog/e-learning platform. Ex-Clearcals Software Engineer. I write hot-takes on web development, shipping delightful products and accelerating product and career growth.',
 	company: {
 		name: 'ZappoTech',
 		designation: 'Co-Founder and CTO',
