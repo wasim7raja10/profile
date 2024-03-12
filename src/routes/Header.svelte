@@ -4,6 +4,8 @@
 	import Explore from '$lib/components/icons/Explore.svelte';
 	import Home from '$lib/components/icons/Home.svelte';
 	import * as Avatar from '$lib/components/ui/avatar/index';
+	import { profileData } from '$lib/data/profile.data';
+	import { getInitials } from '$lib/utils.js';
 	import { ChevronDown, BookOpen, SquarePlus } from 'lucide-svelte';
 </script>
 
@@ -29,10 +31,10 @@
 
 				<div class="flex items-center gap-3 px-4">
 					<Avatar.Root class="h-12 w-12">
-						<Avatar.Image src="https://github.com/shadcn.png" alt="@shadcn" />
-						<Avatar.Fallback>KK</Avatar.Fallback>
+						<Avatar.Image src={profileData.imgUrl} alt={profileData.name} />
+						<Avatar.Fallback>{getInitials(profileData.name)}</Avatar.Fallback>
 					</Avatar.Root>
-					<h2 class="text-xl font-medium">Krishna Kiran</h2>
+					<h2 class="text-xl font-medium">{profileData.name}</h2>
 					<ChevronDown size="16" />
 				</div>
 			</div>

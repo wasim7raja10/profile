@@ -24,12 +24,10 @@
 			</p>
 
 			<div class="flex flex-col items-end">
-				<img
-					height="36"
-					width="36"
-					src={profileData.company.imageUrl}
-					alt={profileData.company.name}
-				/>
+				<Avatar.Root class="h-12 w-12">
+					<Avatar.Image src={profileData.company.imageUrl} alt={profileData.company.name} />
+					<Avatar.Fallback>{getInitials(profileData.company.name)}</Avatar.Fallback>
+				</Avatar.Root>
 				<h6 class="py-1 text-left font-bold leading-5">{profileData.company.name}</h6>
 				<p class="text-xs text-foreground-accent">{profileData.company.designation}</p>
 			</div>
