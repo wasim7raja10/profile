@@ -24,7 +24,7 @@
 			</p>
 
 			<div class="flex flex-col items-end">
-				<Avatar.Root class="h-12 w-12">
+				<Avatar.Root class="h-12 w-12 border">
 					<Avatar.Image src={profileData.company.imageUrl} alt={profileData.company.name} />
 					<Avatar.Fallback>{getInitials(profileData.company.name)}</Avatar.Fallback>
 				</Avatar.Root>
