@@ -13,15 +13,15 @@
 			<img height="27" width="108" src="src/lib/images/brand.svg" alt="Logo Brand" />
 
 			<div class="flex items-center gap-10 text-foreground-secondary">
-				<a href="/home" class="group flex items-center gap-2">
+				<a href="/" class="group flex items-center gap-2">
 					<Home />
 					<span class="text-sm leading-5 group-hover:text-hover">Home</span>
 				</a>
-				<a href="/home" class="group flex items-center gap-2">
+				<a href="/" class="group flex items-center gap-2">
 					<Explore />
 					<span class="text-sm leading-5 group-hover:text-hover">Explore</span>
 				</a>
-				<a href="/home" class="group flex items-center gap-2 hover:text-hover">
+				<a href="/" class="group flex items-center gap-2 hover:text-hover">
 					<BookOpen size="16" class="mt-1" />
 					<span class="text-sm">Learn</span>
 				</a>
